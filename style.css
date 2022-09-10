@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300;500;700&family=Bree+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #98b7f8;
+  --gray: rgb(187, 187, 187);
+}
+
+body {
+  font-family: "Akshar", sans-serif;
+  font-family: "Bree Serif", serif;
+  color: #2b2b2b;
+}
+
+input:focus {
+  outline: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 60px 20px;
+  align-items: center;
+  background-color: var(--blue);
+}
+
+.status-bar__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 30px;
+  padding: 20px 30px;
+  margin: 0 20px;
+  border-radius: 980px;
+  background-color: white;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+#search-bar input {
+  border: none;
+  padding: 0 10px;
+}
+
+#search-bar input[type="text"] {
+  width: 90%;
+}
+
+#search-bar input::placeholder {
+  color: var(--gray);
+}
+
+#search-bar button {
+  color: var(--gray);
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#first-content {
+  margin-top: 175px;
+}
+
+.content {
+  margin: 0px 20px 50px 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+.intro img {
+  width: 160px;
+  height: 220px;
+  border-radius: 12px;
+}
+
+.content-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 5px 30px;
+}
+
+.intro__title {
+  padding: 5px 0;
+}
+
+.intro__title-container h4 {
+  font-size: 24px;
+}
+
+.intro__title-container p {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 5px;
+}
+
+.score {
+  margin-bottom: 10px;
+  color: var(--gray);
+}
+
+.score i:not(:nth-child(5)) {
+  color: var(--blue);
+}
+
+.intro__genre {
+  display: flex;
+  margin-top: 10px;
+}
+
+.intro__genre span {
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 12px;
+}
+
+.intro__action {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 8px 0;
+}
+
+.intro__action button {
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.intro__action button:first-child {
+  background-color: var(--blue);
+  width: 50px;
+  border-radius: 50%;
+}
+
+.intro__action button:last-child {
+  background-color: rgb(31, 31, 31);
+  width: 140px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.top img {
+  width: 100px;
+  height: 150px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.intro .author img {
+  width: 160px;
+  height: 200px;
+  border-radius: 12px;
+}
