@@ -15,143 +15,126 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <div class="background-box">
       <div class="status-bar">
-        <div class="status-bar__menu">
-          <i class="fas fa-bars fa-lg"></i>
-        </div>
-        <div class="status-bar__title">
-          <p>library</p>
-        </div>
-        <div class="status-bar__buy">
-          <i class="fas fa-shopping-basket fa-lg"></i>
-        </div>
+        <i class="fas fa-arrow-left fa-lg"></i>
+        <i class="fas fa-search fa-lg"></i>
       </div>
-
-      <form id="search-bar">
-        <input type="text" required placeholder="Search books..." />
-        <button type="submit">
-          <i class="fas fa-search fa-lg"></i>
+      <div class="profile">
+        <div class="profile__avatar"></div>
+        <h1>Indigo, The Creator</h1>
+        <h6>Alternative Rock, Punk</h6>
+      </div>
+      <div class="my-active-button">
+        <button class="my-active-button__shuffle">Shuffle</button>
+        <button class="my-active-button__like">
+          <i class="fas fa-heart"></i>961,006
         </button>
-      </form>
-    </header>
-
-    <div id="first-content" class="content">
-      <h2>Book of the day</h2>
-      <div class="intro">
-        <img
-          src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/action-thriller-book-cover-design-template-3675ae3e3ac7ee095fc793ab61b812cc_screen.jpg?ts=1637008457"
-        />
-
-        <div class="content-info">
-          <div class="intro__title-container">
-            <h4 class="intro__title">No Fixed Abode</h4>
-            <p class="intro__title">Journey Through</p>
-            <div class="score intro__title">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+      </div>
+      <div class="music-list">
+        <div class="music-list__part">
+          <div class="music-list__part-element">
+            <img
+              class="music-list__avatar"
+              src="https://cdn.pixabay.com/photo/2016/10/21/12/58/electric-guitar-1757976__340.jpg#"
+            />
+            <div class="music-list__info">
+              <p>Indigo, the Creator</p>
+              <h5>EARTHQUAKE</h5>
             </div>
           </div>
-
-          <div class="intro__genre">
-            <span>Journey</span>
-            <span>Biography</span>
-          </div>
-
-          <form class="intro__action">
-            <button type="submit" value="Journey">
-              <i class="fas fa-bookmark fa-lg"></i>
-            </button>
-            <button type="submit">Book Now</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <div class="content">
-      <h2>Top Adventures</h2>
-      <div class="top">
-        <div class="top-preview">
-          <img
-            src="https://i.pinimg.com/originals/3a/88/69/3a88698b2e34f85ed788ee03ce256c38.jpg"
-          />
-          <div class="score">
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
+          <div class="music-list__option">
+            <i class="fas fa-ellipsis-v fa-lg"></i>
           </div>
         </div>
-
-        <div class="top-preview">
-          <img
-            src="https://www.adobe.com/express/create/cover/media_181e3d2c78f153ae7bf0e19a2faeb9a76e234da30.jpeg?width=400&format=jpeg&optimize=medium"
-          />
-          <div class="score">
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
+        <div class="music-list__part">
+          <div class="music-list__part-element">
+            <img
+              class="music-list__avatar"
+              src="https://cdn.pixabay.com/photo/2017/03/11/17/49/maple-2135514__340.jpg"
+            />
+            <div class="music-list__info">
+              <p>Indigo, the Creator</p>
+              <h5>NOVEMBER</h5>
+            </div>
+          </div>
+          <div class="music-list__option">
+            <i class="fas fa-ellipsis-v fa-lg"></i>
           </div>
         </div>
-
-        <div class="top-preview">
-          <img
-            src="https://www.adobe.com/express/create/cover/media_178ebed46ae02d6f3284c7886e9b28c5bb9046a02.jpeg?width=400&format=jpeg&optimize=medium"
-          />
-          <div class="score">
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
+        <div class="music-list__part">
+          <div class="music-list__part-element">
+            <img
+              class="music-list__avatar"
+              src="https://cdn.pixabay.com/photo/2020/10/18/18/42/bulb-5665770__340.jpg"
+            />
+            <div class="music-list__info">
+              <p>Indigo, the Creator</p>
+              <h5>911</h5>
+            </div>
+          </div>
+          <div class="music-list__option">
+            <i class="fas fa-ellipsis-v fa-lg"></i>
           </div>
         </div>
-
-        <div class="top-preview">
-          <img
-            src="https://edit.org/images/cat/book-covers-big-2019101610.jpg"
-          />
-          <div class="score">
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
-            <i class="fas fa-star fa-xs"></i>
+        <div class="music-list__part">
+          <div class="music-list__part-element">
+            <img
+              class="music-list__avatar"
+              src="https://cdn.pixabay.com/photo/2016/11/18/21/10/wolf-1836875__340.jpg"
+            />
+            <div class="music-list__info">
+              <p>Indigo, the Creator</p>
+              <h5>WOLF</h5>
+            </div>
+          </div>
+          <div class="music-list__option">
+            <i class="fas fa-ellipsis-v fa-lg"></i>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="content">
-      <h2>Popular authors</h2>
-      <div class="intro author">
-        <img
-          src="https://cdn.pixabay.com/photo/2015/03/03/08/55/portrait-657116_960_720.jpg"
-        />
-
-        <div class="content-info">
-          <div class="intro__title-container">
-            <h4 class="intro__title">George Raymond Richard Martin</h4>
-            <p class="intro__title">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              amet ratione adipisci placeat similique ipsa accusantium quidem
-              animi mollitia voluptatum delectus, omnis pariatur. Ex quidem
-              suscipit magnam inventore, voluptatibus tenetur!
-            </p>
-          </div>
+      <div class="navbar-playlist">
+        <div class="navbar-playlist__info">
+          <p>Indigo, The Creator</p>
+          <h4>NOVEMBER</h4>
+        </div>
+        <div class="navbar-playlist__plaryer">
+          <i class="fas fa-step-backward"></i>
+          <i class="fas fa-play fa-lg"></i>
+          <i class="fas fa-step-forward"></i>
         </div>
       </div>
     </div>
-
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
+    <div class="background-box">
+      <div class="status-bar">
+        <i class="fas fa-arrow-left fa-lg"></i>
+        <i class="fas fa-ellipsis-v fa-lg"></i>
+      </div>
+      <div class="album-cover"></div>
+      <div class="album-title">
+        <h1>NOVEMBER</h1>
+        <p>Indigo, The Creator</p>
+      </div>
+      <div class="music-player">
+        <div class="music-player__time">
+          <p>1:56</p>
+          <p>2:21</p>
+        </div>
+        <div class="music-player__bar">
+          <div class="music-player__bar-now"></div>
+          <div class="music-player__bar-still"></div>
+          <div class="music-player__until"></div>
+        </div>
+        <div class="player-button">
+          <i class="player-button__sub-act fas fa-sync-alt"></i>
+          <i class="fas fa-step-backward fa-lg"></i>
+          <div class="player-button__play">
+            <i class="fas fa-play fa-lg"></i>
+          </div>
+          <i class="fas fa-step-forward fa-lg"></i>
+          <i class="player-button__sub-act fas fa-random"></i>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
